@@ -97,3 +97,23 @@ section{
    font-size: 2.5rem;
    font-weight: 600;   
 }
+
+/* Responsive styles for h1 */
+h1 {
+    text-align: center; 
+    margin: 2rem 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem; 
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
